@@ -1,0 +1,105 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: times, verdana;
+	background-color: rgb(214, 214, 214);
+}
+.page{
+	width: 70%;
+	height: 80vh;
+	top: 0;
+	display: inline-flex;
+	border-radius: 20px;
+	background-color: rgb(214, 214, 214);
+	margin-left: 15%;
+	margin-top: 70px;
+	box-shadow: -7px -7px 20px rgba(255, 255, 255, 0.7),
+				 7px  7px 20px rgba(0, 0, 0, 0.2);
+}
+.page .navbar{
+	height: 100%;
+	width: 260px;
+	overflow-x: hidden;
+	box-shadow: -7px -7px 20px rgba(255, 255, 255, 0.7),
+				 7px  7px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	text-align: center;
+}
+.page .navbar header{
+	margin: 7px;
+	padding: 9px;
+	font-weight: 900;
+	font-size: 30px;
+	color: #d89a23;
+}
+.page .navbar a{
+	display: block;
+	margin-top: 25px;
+	padding: 10px;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	box-shadow: -7px -7px 20px rgba(255, 255, 255, 0.7),
+				 7px  7px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 30px;
+}
+.page .navbar a:hover{
+	box-shadow: inset -7px -7px 20px rgba(255, 255, 255, 0.7),
+				inset 7px  7px 20px rgba(0, 0, 0, 0.2);
+	transition: 0.4s;
+}
+.page .navbar a i{
+	color: #d89a23;
+	padding: 10px;
+}
+.body{
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+.body img{
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	box-shadow: -17px -17px 20px rgba(255, 255, 255, 0.7),
+				 17px  17px 20px rgba(0, 0, 0, 0.2);
+}
+.body h3{
+	font-weight: bold;
+	font-size: 25px;
+}
+.body h4{
+	font-size: 15px;
+}
+.body a i{
+	color: #d89a23;
+	font-size: 40px;
+	padding: 15px;
+	margin: 5px;
+	box-shadow: -7px -7px 20px rgba(255, 255, 255, 0.7),
+				 7px  7px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 50px;
+}
+.body a i:hover{
+	box-shadow: inset -7px -7px 20px rgba(255, 255, 255, 0.7),
+				inset 7px  7px 20px rgba(0, 0, 0, 0.2);
+}
+.body .btn{
+	padding-top: 30px;
+	font-size: 20px;
+}
+.body .btn a{
+	text-decoration: none;
+	color: white;
+	background-color: #d89a23;
+	padding: 14px 16px;
+	border-radius: 20px;
+	box-shadow: -7px -7px 20px rgba(255, 255, 255, 0.7),
+				 7px  7px 20px rgba(0, 0, 0, 0.2);
+}
+/* <!-- code by Sultan Muhammad Essa-514 --> */
+
+.btn a:hover{
+	box-shadow: inset -17px -17px 20px #d89a23,
+				inset 17px  17px 20px rgba(0, 0, 0, 0.2);
+}
